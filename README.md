@@ -166,15 +166,7 @@
 
 ## 🎡 Wheel Bonus Statistics
 
-| Metric | Value |
-|--------|-------|
-| Total Triggers | 602,507 |
-| Wins | 405,026 (67.22%) |
-| Losses | 197,481 (32.78%) |
-| Avg Fund at Trigger | 208.5 |
-| Max Fund at Trigger | 297.6 |
-| Avg Fund on Win | 208.5 |
-| Max Fund on Win | 297.6 |
+Wheel Bonus: triggered every 100 spins
 
 ---
 
