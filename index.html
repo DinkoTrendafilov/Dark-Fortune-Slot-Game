@@ -711,8 +711,12 @@ async function doSpin(){
         }
     });
     fund += fundContrib;
-    if(totalWin > 0){ credits += totalWin; sfxWin(); showWin(totalWin, totalBet); }
-    T(lastWinEl, F(totalWin));
+    if(totalWin > 0){
+        credits += totalWin;
+        sfxWin();
+        T(lastWinEl, F(totalWin));
+        showWin(totalWin, totalBet);
+    }
     updateHUD();
     if(winLines.length > 0){ highlightCells(winLines); drawWinLines(winLines); }
     
@@ -750,6 +754,7 @@ async function doSpin(){
             setStatus('✨ Pick-Em bonus #' + (bIdx+1) + ': +' + F(j) + ' credits!', true);
             T(lastWinEl, F(totalWin));
             sfxWin();
+            showWin(totalWin, totalBet);
             updateHUD();
             await new Promise(function(r){ setTimeout(r, 600); });
         }
