@@ -1,6 +1,6 @@
 # 🌙 DARK FORTUNE
 
-> **4 Lines · Fund System · Wheel Bonus · Pick-Em Bonus · RTP 96%**
+> **40 Lines · Fund System · Wheel Bonus · Pick-Em Bonus · RTP 96%**
 
 [![Live Demo](https://img.shields.io/badge/🎰-Play_Now-brightgreen?style=for-the-badge&logo=githubpages)](https://dinkotrendafilov.github.io/Dark-Fortune-Slot-Game/)
 [![Python](https://img.shields.io/badge/Python-3.9+-blue?style=for-the-badge&logo=python)](https://www.python.org/)
@@ -20,10 +20,10 @@
 | Feature | Description |
 |---------|-------------|
 | **Reels** | 5 × 4 |
-| **Paylines** | 4 (Zero Correlation) |
+| **Paylines** | 40 (Low Correlation) |
 | **Symbols** | 30 Unique |
 | **RTP** | ~96% |
-| **Bet Range** | 1 – 1,200 Credits |
+| **Bet Range** | 1 – 2,000 Credits |
 | **Bonus 1** | Pick-Em (4-match & 5-match) |
 | **Bonus 2** | Wheel Bonus (Fund System) |
 
@@ -70,6 +70,14 @@
 | Win Rate | ~63.21% |
 | Win Multiplier | Fund × 1 |
 
+**Bet-Specific Triggers:**
+
+| Bet Range | Trigger |
+|-----------|---------|
+| 1 – 40 | 200 |
+| 100 – 500 | 2,000 |
+| 1,000 – 2,000 | 20,000 |
+
 ---
 
 ## 🚀 Monte Carlo Simulation (10,000,000 Spins)
@@ -79,80 +87,80 @@
 | Metric | Value |
 |--------|-------|
 | Total Spins | 10,000,000 |
-| Total Bet | 40,000,000 |
-| Total Won | 38,419,693 |
-| **RTP** | **96.05%** |
-| Zero-Win Spins | 24.38% |
-| Max Single Win | 26,000× |
+| Total Bet | 400,000,000 |
+| Total Won | 384,524,628 |
+| **RTP** | **96.13%** |
+| Zero-Win Spins | 1.05% |
+| Max Single Win | 34,362 credits |
 
 ### Volatility Metrics
 
 | Metric | Value |
 |--------|-------|
-| Standard Deviation (σ) | 25.67 |
-| Arithmetic Mean (μ) | 3.84 |
-| Volatility Index (σ/μ) | 668% |
+| Standard Deviation (σ) | 100.74 |
+| Arithmetic Mean (μ) | 38.45 |
+| Volatility Index (σ/μ) | 261.98% |
 
 ### Win Distribution Percentiles
 
 | Percentile | Value |
 |------------|-------|
 | 1st | 0.00× |
-| 5th | 0.00× |
-| 10th | 0.00× |
-| 25th | 1.00× |
-| 50th | 1.00× |
-| 75th | 2.00× |
-| 90th | 3.00× |
-| 95th | 4.00× |
-| 99th | 40.00× |
+| 5th | 3.00× |
+| 10th | 4.00× |
+| 25th | 8.00× |
+| 50th | 12.00× |
+| 75th | 22.00× |
+| 90th | 100.00× |
+| 95th | 209.10× |
+| 99th | 283.00× |
 
 ---
 
 ## 💀 Bankroll Survival Analysis
 
-**Starting Balance**: 1,000 Credits  
-**Bet Per Spin**: 4 Credits  
+**Starting Balance**: 5,000 Credits  
+**Bet Per Spin**: 40 Credits  
 **Sessions**: 1,000
 
 | Spins | Survival Rate | Bust Rate | Avg Balance |
 |-------|---------------|-----------|-------------|
-| 500 | 98.60% | 1.40% | 482 |
-| 1,000 | 31.60% | 68.40% | 136 |
-| 2,500 | 2.60% | 97.40% | 22 |
-| 5,000 | 0.20% | 99.80% | 4 |
-| 10,000 | 0.00% | 100.00% | 2 |
-| 25,000 | 0.00% | 100.00% | 2 |
+| 500 | 37.80% | 62.20% | 711 |
+| 1,000 | 1.40% | 98.60% | 64 |
+| 2,500 | 0.10% | 99.90% | 32 |
+| 5,000 | 0.00% | 100.00% | 25 |
+| 10,000 | 0.00% | 100.00% | 25 |
+| 25,000 | 0.00% | 100.00% | 24 |
 
 ---
 
 ## 📊 Bonus Statistics (10M Spins)
 
-### 4-Match Bonus
+### 4-Match Bonus (52,735 triggers)
 
 | Group | Count | Percentage | Expected |
 |-------|-------|------------|----------|
-| G1 | 5,181 | 71.69% | 71.54% |
-| G2 | 1,781 | 24.64% | 24.62% |
-| G3 | 265 | 3.67% | 3.85% |
+| G1 | 37,746 | 71.58% | 71.54% |
+| G2 | 12,897 | 24.46% | 24.62% |
+| G3 | 2,092 | 3.97% | 3.85% |
 
-### 5-Match Bonus
+### 5-Match Bonus (232 triggers)
 
 | Group | Count | Percentage | Expected |
 |-------|-------|------------|----------|
-| G1 | 17 | 54.84% | 71.54% |
-| G2 | 11 | 35.48% | 24.62% |
-| G3 | 3 | 9.68% | 3.85% |
+| G1 | 167 | 71.98% | 71.54% |
+| G2 | 54 | 23.28% | 24.62% |
+| G3 | 11 | 4.74% | 3.85% |
 
-### Pick-Em Correct Distribution
+### Pick-Em Correct Distribution (all bonuses)
 
 | Correct | Count | % of Bonuses | Theoretical |
 |---------|-------|--------------|-------------|
-| 0 | 301 | 4.15% | 3.85% |
-| 1 | 1,806 | 24.88% | 24.62% |
-| 2 | 3,091 | 42.59% | 43.08% |
-| 3 | 1,792 | 24.69% | 24.62% |
-| 4 | 268 | 3.69% | 3.85% |
+| 0 | 2,107 | 3.98% | 3.85% |
+| 1 | 13,018 | 24.58% | 24.62% |
+| 2 | 22,788 | 43.02% | 43.08% |
+| 3 | 12,951 | 24.45% | 24.62% |
+| 4 | 2,103 | 3.97% | 3.85% |
 
 ---
 
@@ -160,13 +168,25 @@
 
 | Metric | Value |
 |--------|-------|
-| Total Triggers | 62,911 |
-| Wins | 42,051 (66.84%) |
-| Losses | 20,860 (33.16%) |
-| Avg Fund at Trigger | 200.8 |
-| Max Fund at Trigger | 211.5 |
-| Avg Fund on Win | 200.8 |
-| Max Fund on Win | 211.5 |
+| Total Triggers | 602,507 |
+| Wins | 405,026 (67.22%) |
+| Losses | 197,481 (32.78%) |
+| Avg Fund at Trigger | 208.5 |
+| Max Fund at Trigger | 297.6 |
+| Avg Fund on Win | 208.5 |
+| Max Fund on Win | 297.6 |
+
+---
+
+## 📈 5-Match Validation
+
+| Metric | Value |
+|--------|-------|
+| **Theoretical (ANY line)** | 1 in 20,250 |
+| **Actual (Monte Carlo)** | 1 in 19,724 |
+| **Ratio (Theor/Actual)** | 1.0267× ✅ |
+| **95% Credible Interval** | [18,079 – 21,516] |
+| **Theoretical within CI?** | ✅ **YES** |
 
 ---
 
@@ -186,7 +206,7 @@
 
 ```
 Dark-Fortune-Slot-Game/
-├── index.html              # Playable HTML5 game
+├── index.html              # Playable HTML5 game (40 lines)
 ├── README.md               # This file
 ├── SDD_Dark_Fortune.ipynb  # Software Design Document (Jupyter)
 ├── dark_fortune.html       # Alternative game version
@@ -213,11 +233,12 @@ jupyter notebook SDD_Dark_Fortune.ipynb
 
 ## 📊 Key Findings
 
-1. **RTP**: 96.05% (Mathematically verified within 0.05% of target)
-2. **Volatility**: Very high (668%) — high risk, high reward
-3. **Pick-Em Distribution**: Matches theoretical hypergeometric distribution
-4. **Bankroll**: 98.6% survival at 500 spins, drops to 31.6% at 1,000 spins
-5. **5-Match Frequency**: 1 in 202,500 (theoretical) vs 1 in 322,581 (actual)
+1. **RTP**: 96.13% (Mathematically verified within 0.13% of target) ✅
+2. **Volatility**: 261.98% — low volatility, consistent wins
+3. **Hit Rate**: 98.95% — almost every spin produces a win 🎯
+4. **Pick-Em Distribution**: Matches theoretical hypergeometric distribution ✅
+5. **5-Match Validation**: Within 95% Credible Interval ✅
+6. **Bankroll**: 37.8% survival at 500 spins, drops to 1.4% at 1,000 spins
 
 ---
 
