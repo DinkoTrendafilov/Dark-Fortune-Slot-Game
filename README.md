@@ -1,6 +1,6 @@
 # 🌙 DARK FORTUNE
 
-> **40 Lines · Fund System · Wheel Bonus · Pick-Em Bonus · RTP 96%**
+> **40 Lines · Spin Counter Fund · Wheel Bonus · Pick-Em Bonus · RTP 96%**
 
 [![Live Demo](https://img.shields.io/badge/🎰-Play_Now-brightgreen?style=for-the-badge&logo=githubpages)](https://dinkotrendafilov.github.io/Dark-Fortune-Slot-Game/)
 [![Python](https://img.shields.io/badge/Python-3.9+-blue?style=for-the-badge&logo=python)](https://www.python.org/)
@@ -25,7 +25,7 @@
 | **RTP** | ~96% |
 | **Bet Range** | 1 – 2,000 Credits |
 | **Bonus 1** | Pick-Em (4-match & 5-match) |
-| **Bonus 2** | Wheel Bonus (Fund System) |
+| **Bonus 2** | Wheel Bonus (Spin Counter Fund) |
 
 ---
 
@@ -65,18 +65,16 @@
 
 | Metric | Value |
 |--------|-------|
-| Trigger | Fund ≥ 200 Credits |
-| Attempts | 5 |
-| Win Rate | ~63.21% |
-| Win Multiplier | Fund × 1 |
+| **Trigger** | Every 100 spins (fund accumulates) |
+| **Attempts** | 5 |
+| **Win Rate** | ~63.21% |
+| **Win Multiplier** | Fund × 1 |
 
-**Bet-Specific Triggers:**
-
-| Bet Range | Trigger |
-|-----------|---------|
-| 1 – 40 | 200 |
-| 100 – 500 | 2,000 |
-| 1,000 – 2,000 | 20,000 |
+**How it works:**
+- Every spin adds to the spin counter
+- At 100 spins, Wheel Bonus triggers automatically
+- Win the Wheel → claim the accumulated fund
+- Lose the Wheel → fund carries over to next cycle
 
 ---
 
@@ -166,7 +164,10 @@
 
 ## 🎡 Wheel Bonus Statistics
 
-Wheel Bonus: triggered every 100 spins
+| Metric | Value |
+|--------|-------|
+| **Trigger** | Every 100 spins |
+| **Fund Accumulation** | 0.3× per 1-match |
 
 ---
 
@@ -230,7 +231,7 @@ jupyter notebook SDD_Dark_Fortune.ipynb
 3. **Hit Rate**: 98.95% — almost every spin produces a win 🎯
 4. **Pick-Em Distribution**: Matches theoretical hypergeometric distribution ✅
 5. **5-Match Validation**: Within 95% Credible Interval ✅
-6. **Bankroll**: 37.8% survival at 500 spins, drops to 1.4% at 1,000 spins
+6. **Wheel Bonus**: Every 100 spins → predictable and engaging
 
 ---
 
